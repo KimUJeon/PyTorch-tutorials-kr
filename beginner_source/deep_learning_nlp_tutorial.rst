@@ -54,19 +54,19 @@ and use them on it.
 
 .. galleryitem:: /beginner/nlp/pytorch_tutorial.py
     :intro: All of deep learning is computations on tensors, which are generalizations of a matrix that can be
-
+            행렬의 일반화가 가능한 모든 딥 러닝은 tensors 에서 계산이 이루어집니다.
 .. galleryitem:: /beginner/nlp/deep_learning_tutorial.py
     :intro: Deep learning consists of composing linearities with non-linearities in clever ways. The introduction of non-linearities allows
-
+            딥 러닝은 선형을 훌륭한 방법으로 비 선형으로 구성하는것으로 구성이 된다. 비 선형성의 도입은 허용된다.
 .. galleryitem:: /beginner/nlp/word_embeddings_tutorial.py
     :intro: Word embeddings are dense vectors of real numbers, one per word in your vocabulary. In NLP, it is almost always the case that your features are
-
+            단어 임베딩은 여러분들의 사전에 한 단어에 낱말들이 있듯이 실제 숫자들이 밀집된 벡터다. NLP에서 거의 항상 그럴 것 이다.
 .. galleryitem:: /beginner/nlp/sequence_models_tutorial.py
     :intro: At this point, we have seen various feed-forward networks. That is, there is no state maintained by the network at all.
-
+            이 부분에서, 우리는 다양한 순방향 신경망을 봤습니다. 즉, 네트워크에 의해 유지되는 상태는 없다는 것 입니다.
 .. galleryitem:: /beginner/nlp/advanced_tutorial.py
     :intro: Dynamic versus Static Deep Learning Toolkits. Pytorch is a *dynamic* neural network kit.
-
+            동적 vs 정적 딥 러닝 툴 킷. Pytorch 는 '동적'인 신경망 킷 입니다.
 
 .. raw:: html
 
