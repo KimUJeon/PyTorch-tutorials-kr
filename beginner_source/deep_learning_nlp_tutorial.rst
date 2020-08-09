@@ -22,6 +22,12 @@ networks, and make the point that they are chains of compositions of
 linearities and non-linearities. This tutorial aims to get you started
 writing deep learning code, given you have this prerequisite knowledge.
 
+이번엔 딥 러닝 프레임워크(Tensorflow, Theano, Keras, Dynet 등)를
+써보지 않은 사람들을 위해 특별히 NLP에만 집중한 튜토리얼입니다.
+하지만, 핵심적인 NLP 실무 지식(part-of-speech tagging, language modeling 등)이 요구됩니다.
+또한, 입문 수준의 AI 신경망(Russel 이나 Norvig 서적에서 볼 수 있는)에도 친숙해야 합니다.
+
+
 Note this is about *models*, not data. For all of the models, I just
 create a few test examples with small dimensionality so you can see how
 the weights change as it trains. If you have some real data you want to
