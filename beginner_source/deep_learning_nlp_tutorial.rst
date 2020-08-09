@@ -26,6 +26,9 @@ writing deep learning code, given you have this prerequisite knowledge.
 써보지 않은 사람들을 위해 특별히 NLP에만 집중한 튜토리얼입니다.
 하지만, 핵심적인 NLP 실무 지식(part-of-speech tagging, language modeling 등)이 요구됩니다.
 또한, 입문 수준의 AI 신경망(Russel 이나 Norvig 서적에서 볼 수 있는)에도 친숙해야 합니다.
+보통, 이러한 코스들은 기본적인 순방향 신경망의 역전파 알고리즘을 다루고
+선형과 비선형으로 구성된 순환이라는 것을 강조합니다. 이 튜토리얼은
+여러분들이 전제조건에 대한 지식이 있을 때 딥 러닝 코드를 작성할 수 있도록 만드는것이 목적입니다.
 
 
 Note this is about *models*, not data. For all of the models, I just
@@ -34,6 +37,10 @@ the weights change as it trains. If you have some real data you want to
 try, you should be able to rip out any of the models from this notebook
 and use them on it.
 
+데이터가 아니라 '모델'에 대한 것이라는 걸 명심하세요. 저는 훈련할때의 변화를 여러분들이
+알아 볼 수 있도록 모든 모델에 대해 작은 규모의 소수의 테스트 예시만 만들것 입니다.
+만약 여러분들이 정말 다루고 싶은 데이터가 있다면, 여러분들이 여기에서 아무 모델이나
+뜯어 사용하셔도 좋습니다
 
 .. toctree::
     :hidden:
