@@ -1,17 +1,23 @@
 # -*- coding: utf-8 -*-
 r"""
 Introduction to PyTorch
+PyTorch 소개
 ***********************
 
 Introduction to Torch's tensor library
+Torch에 있는 tensor 라이브러리 소개
 ======================================
 
 All of deep learning is computations on tensors, which are
 generalizations of a matrix that can be indexed in more than 2
 dimensions. We will see exactly what this means in-depth later. First,
 lets look what we can do with tensors.
+모든 딥러닝은 2차원 이상으로 인덱싱이 가능한 행렬의 일반화된 tensor 에 기반해 연산합니다.
+여러분들은 이것이 무엇을 뜻하는지 나중에 알게 될 것입니다.
+우선 tensor로 우리가 무엇을 할 수 있는지 알아봅시다.
 """
 # Author: Robert Guthrie
+# 저자: Robert Guthrie
 
 import torch
 import torch.autograd as autograd
@@ -24,23 +30,28 @@ torch.manual_seed(1)
 
 ######################################################################
 # Creating Tensors
+# 텐서 생성중
 # ~~~~~~~~~~~~~~~~
 #
 # Tensors can be created from Python lists with the torch.tensor()
 # function.
+# 텐서는 파이썬 리스트에 있는 torch.tensor() 함수로 만들 수 있습니다.
 #
 
 # torch.tensor(data) creates a torch.Tensor object with the given data.
+# torch.tensor(data) 는 주어진 데이터로 torch.Tensor 오브젝트를 생성합니다.
 V_data = [1., 2., 3.]
 V = torch.tensor(V_data)
 print(V)
 
 # Creates a matrix
+# 행렬 생성하기
 M_data = [[1., 2., 3.], [4., 5., 6]]
 M = torch.tensor(M_data)
 print(M)
 
 # Create a 3D tensor of size 2x2x2.
+# 크기가 2x2x2 인 3D 텐서 생성하기
 T_data = [[[1., 2.], [3., 4.]],
           [[5., 6.], [7., 8.]]]
 T = torch.tensor(T_data)
